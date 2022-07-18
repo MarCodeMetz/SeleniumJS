@@ -12,7 +12,7 @@ async function firstTest() {
     await driver.get('https://www.google.com/');
 
     // add a text
-    await driver.findElement(By.className("gLFyfgsfi")).sendKeys("amazon", Key.ENTER);
+    await driver.findElement(By.className("gLFyf gsfi")).sendKeys("amazon", Key.ENTER);
 
     // close the browser
     await driver.quit();
